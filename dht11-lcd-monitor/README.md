@@ -19,3 +19,7 @@ The DHT11 measures temperature and humidity. The Arduino reads the values and up
 - Integrating multiple hardware components and libraries
 - Displaying live sensor data across two output interfaces
 - Combining sensor input with LCD and serial output in one program
+
+## Project Video
+
+[ Click here to watch the project in action](https://www.youtube.com/watch?v=uaQsI-q7raU)
