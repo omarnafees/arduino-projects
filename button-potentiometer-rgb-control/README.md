@@ -1,29 +1,25 @@
-# Button Potentiometer RGB Control
+# DHT11 LCD Monitor
 
-A button and potentiometer are used to control an RGB LED. The RGB LED stays off until the button is pressed, then the potentiometer controls its color.
+An Arduino-based temperature and humidity monitor that displays sensor readings on a 16×2 LCD and the Serial Monitor.
 
 ## How It Works
 
-When the button is not pressed, the RGB LED remains off. When the button is pressed, the potentiometer value is divided into ranges that control the RGB LED's color as the potentiometer is turned.
+The DHT11 measures temperature and humidity. The Arduino reads the values and updates both outputs every 500 milliseconds.
 
 ## What I Used
 
-* Arduino Uno
-* Push button
-* Potentiometer
-* RGB LED
-* Resistors
-* Breadboard
-* Jumper wires
+- Arduino Uno
+- DHT11 temperature and humidity sensor
+- 16×2 LCD
+- 10K potentiometer
+- Breadboard and jumper wires
 
 ## What I Learned
 
-* Using `INPUT_PULLUP`
-* Using `map()` to convert input ranges
-* Dividing an input range using multiple `else if` conditions
-* Creating smooth RGB color transitions
-* Controlling RGB channels independently
+- Integrating multiple hardware components and libraries
+- Displaying live sensor data across two output interfaces
+- Combining sensor input with LCD and serial output in one program
 
-## Project Video
+## Demo
 
-[ Click here to watch the project in action](https://www.youtube.com/watch?v=p-wNrhv2z0c)
+[Watch the project demo on YouTube]([YOUR_YOUTUBE_LINK](https://www.youtube.com/watch?v=uaQsI-q7raU))
