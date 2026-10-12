@@ -22,4 +22,4 @@ The sensor sends an ultrasonic pulse and measures the time taken for its echo to
   
 ## Demo
 
-[Watch the project demo on YouTube][(YOUR_YOUTUBE_LINK)](https://www.youtube.com/watch?v=gJd4jJH86ZY)
+[Watch the project demo on YouTube][](https://www.youtube.com/watch?v=gJd4jJH86ZY)
